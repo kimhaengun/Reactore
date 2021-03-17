@@ -1,0 +1,14 @@
+package reactorex1;
+
+import org.reactivestreams.Publisher;
+import org.reactivestreams.Subscriber;
+
+//<T> = 내가 발행할 데이터 타입
+public class MyPublisher implements Publisher<Integer>{
+
+	public void subscribe(Subscriber<? super Integer> s) {
+		// TODO Auto-generated method stub
+		System.out.println("1.구독 시작");
+	}
+
+}
