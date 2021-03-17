@@ -7,7 +7,7 @@ import org.reactivestreams.Subscription;
 // 구독자 = 일반 시민
 public class MySubscriber implements Subscriber<Integer>{
 	
-	private Integer size = 2;
+	private Integer size = 2; //nobounded
 	private Subscription s;
 	
 	public void onSubscribe(Subscription s) {
